@@ -1,0 +1,20 @@
+{
+  "name": "olapic-xml2csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "xml2csv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jae Han Kim",
+  "license": "MIT",
+  "dependencies": {
+    "camaro": "^2.2.2",
+    "json2csv": "^3.11.5",
+    "minimist": "^1.2.0",
+    "transform": "^1.1.2",
+    "xml2json": "^0.11.0",
+    "xml2rec": "^1.0.26",
+    "xmldom": "^0.1.27"
+  }
+}
