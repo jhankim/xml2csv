@@ -24,7 +24,7 @@ if (argv.x == true || argv.x == undefined || argv.x == ''){
 
 var jsonArray = [];
 var xmldoc = new DOMParser().parseFromString(fs.readFileSync(argv.i, 'utf-8'));
-var elementCount = xmldoc.getElementsByTagName("Product").length;
+var elementCount = xmldoc.getElementsByTagName(argv.x).length;
 var counter = 0;
 
 xml2rec(argv.i, [argv.x], {format:'json'}, (err, rec) => {
